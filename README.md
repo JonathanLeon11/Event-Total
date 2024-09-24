@@ -18,3 +18,5 @@ Hay una nueva version de la plantilla-general-apartados con todas las nuevas imp
 Actualizacion del diagrama entidad relacion.
 
 Implementacion de nuevas rutas amigables.
+
+Los archivos del proyecto final son los de la rama main, si quieren ejecutar cambios haganlos en la rama mejoras-dev
