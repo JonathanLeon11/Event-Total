@@ -1,0 +1,34 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^/$ views/login-eventtotal-view.php
+RewriteRule ^Login/$ controllers/login-eventtotal-controller.php
+RewriteRule ^Home/$ controllers/home-eventtotal-controller.php
+
+RewriteRule ^Profile/$ controllers/profile-user-eventtotal-controller.php
+RewriteRule ^Update-Profile/$ actions/update-profile-action.php [QSA,L]
+
+RewriteRule ^New-Event/$ controllers/create-new-event-controller.php [QSA,L]
+
+RewriteRule ^Create-Event/$ actions/create-new-event-action.php [QSA,L]
+
+RewriteRule ^Error-Internal/$ views/error-internal-eventease-view.html
+RewriteRule ^Error-Connection/$ views/error-service-unavaible-eventease-view.html
+
+RewriteRule ^Logout/$ actions/logout-eventtotal-action.php
+
+RewriteRule ^Users/$ controllers/users-eventtotal-controller.php [QSA,L]
+RewriteRule ^Actions-Users/$ actions/users-eventtotal-action.php
+
+RewriteRule ^Recetario/$ controllers/recetario-eventtotal-controller.php [QSA,L]
+RewriteRule ^Actions-Recetario/$ actions/recetario-eventtotal-action.php
+
+RewriteRule ^Insumos/$ controllers/insumos-eventtotal-controller.php [QSA,L]
+RewriteRule ^Actions_insumos/$ actions/insumos-eventtotal-action.php
+
+RewriteRule ^Inventory/$ controllers/inventory-eventtotal-controller.php [QSA,L]
+RewriteRule ^CrearProduct/$ actions/crearproduct-action.php [QSA,L]
+RewriteRule ^UpdateP/$ actions/updateproduct-action.php [QSA,L]
+
+RewriteRule ^Salones/$ controllers/salones-eventtotal-controller.php [QSA,L]
+RewriteRule ^Actions_Salones/$ actions/salones-eventtotal-action.php
